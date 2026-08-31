@@ -1,0 +1,184 @@
+.confirmation-page {
+  min-height: calc(100vh - 88px);
+  padding: 52px 20px 70px;
+  background: #f8f8f8;
+}
+
+.confirmation-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.confirmation-header {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.confirmation-eyebrow {
+  margin-bottom: 10px;
+  color: #777;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.confirmation-header h1 {
+  margin: 0 0 10px;
+  color: #111;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.confirmation-header > p:last-child {
+  margin: 0;
+  color: #777;
+  font-size: 15px;
+}
+
+.bill-card,
+.empty-order {
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.06);
+}
+
+.bill-card {
+  overflow: hidden;
+}
+
+.bill-items {
+  padding: 32px 35px 8px;
+}
+
+.bill-items h2 {
+  margin: 0 0 22px;
+  color: #111;
+  font-size: 22px;
+}
+
+.bill-item {
+  display: grid;
+  grid-template-columns: 76px 1fr auto;
+  gap: 18px;
+  align-items: center;
+  padding: 18px 0;
+  border-top: 1px solid #eee;
+}
+
+.bill-item img {
+  width: 76px;
+  height: 76px;
+  border-radius: 10px;
+  object-fit: cover;
+  background: #f4f4f4;
+}
+
+.bill-item-details h3 {
+  margin: 0 0 8px;
+  color: #222;
+  font-size: 16px;
+}
+
+.bill-item-details p,
+.bill-item-price span {
+  margin: 0;
+  color: #777;
+  font-size: 14px;
+}
+
+.bill-item-price {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-end;
+}
+
+.bill-item-price strong {
+  color: #111;
+  font-size: 16px;
+}
+
+.bill-total {
+  padding: 24px 35px 30px;
+  border-top: 1px solid #eee;
+  background: #fcfcfc;
+}
+
+.bill-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 8px 0;
+  color: #555;
+  font-size: 15px;
+}
+
+.bill-grand-total {
+  margin-top: 12px;
+  padding-top: 18px;
+  border-top: 1px solid #ddd;
+  color: #111;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.empty-order {
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.empty-order h2 {
+  margin-bottom: 10px;
+  color: #111;
+  font-size: 24px;
+}
+
+.empty-order p {
+  margin-bottom: 24px;
+  color: #777;
+}
+
+.back-to-shop {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 14px 24px;
+  background: #111;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+@media (max-width: 650px) {
+  .confirmation-page {
+    padding: 34px 15px 50px;
+  }
+
+  .confirmation-header h1 {
+    font-size: 28px;
+  }
+
+  .bill-items {
+    padding: 24px 18px 6px;
+  }
+
+  .bill-total {
+    padding: 22px 18px 26px;
+  }
+
+  .bill-item {
+    grid-template-columns: 62px 1fr;
+    gap: 13px;
+  }
+
+  .bill-item img {
+    width: 62px;
+    height: 62px;
+  }
+
+  .bill-item-price {
+    grid-column: 2;
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,14 @@
+| Use                      | Color      | HEX       |
+| ------------------------ | ---------- | --------- |
+| Main Black               | ⬛          | `#111111` |
+| Pure White               | ⬜          | `#FFFFFF` |
+| Page Background          | Light Gray | `#EFEEF1` |
+| Product Card Background  | Gray       | `#ECEEF0` |
+| Light Section Background | Gray       | `#EFEFEF` |
+| Soft Background          | Off White  | `#F7F7F7` |
+| Extra Light Background   | Off White  | `#F8F8F8` |
+| Main Heading Text        | Black      | `#111111` |
+| Normal Text              | Dark Gray  | `#333333` |
+| Description Text         | Gray       | `#666666` |
+| Muted Text               | Gray       | `#888888` |
+| Border                   | Light Gray | `#EEEEEE` |
