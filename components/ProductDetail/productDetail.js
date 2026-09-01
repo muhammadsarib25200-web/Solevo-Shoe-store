@@ -40,6 +40,13 @@ function formatPrice(value) {
 }
 
 export default function ProductDetail({ id }) {
+  const userLogin = useSelector((state) => state.auth.userLogin);
+  function checkLogin(){
+    if(!userLogin){
+      alert("Please login first");
+      return;
+    }
+  }
   const products = useSelector((states) => states.products.items);
   const dispatch = useDispatch();
   const [quantity, setQuantity] = useState(1);
@@ -142,7 +149,7 @@ export default function ProductDetail({ id }) {
                 </button>
               </div>
 
-              <button type="button" className="btn" onClick={handleAddToCart}>
+              <button type="button" className="btn" onClick={checkLogin}>
                 <strong>Add to Cart</strong>
                 <div className="container-stars">
                   <div className="stars"></div>
@@ -152,7 +159,6 @@ export default function ProductDetail({ id }) {
                   <div className="circle"></div>
                 </div>
               </button>
-
               <button
                 type="button"
                 className="wishlist-button"

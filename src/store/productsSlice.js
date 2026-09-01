@@ -29,7 +29,7 @@ const initialState = {
     },
     {
       id: 4,
-      name: 'Puma RS-X',
+      name: 'Urban Pulse',
       price: 9500,
       image: '/assets/images3.jpg',
       description:'A perfect blend of style and comfort, these casual sneakers are ideal for everyday wear, keeping you comfortable wherever you go.',
@@ -37,7 +37,7 @@ const initialState = {
     },
      {
       id: 5,
-      name: 'Puma RS-X',
+      name: 'Velocity X1',
       price: 9500,
       image: '/assets/images4.jpg',
       description:'A perfect blend of style and comfort, these casual sneakers are ideal for everyday wear, keeping you comfortable wherever you go.',
@@ -45,7 +45,7 @@ const initialState = {
     },
      {
       id: 6,
-      name: 'Puma RS-X',
+      name: 'StreetNova',
       price: 9500,
       image: '/assets/images5.jpg',
       description:'A perfect blend of style and comfort, these casual sneakers are ideal for everyday wear, keeping you comfortable wherever you go.',
@@ -53,7 +53,7 @@ const initialState = {
     },
      {
       id: 7,
-      name: 'Puma RS-X',
+      name: 'CloudStep Pro',
       price: 9500,
       image: '/assets/images6.jpg',
       description:'Engineered for outdoor adventures, these hiking shoes feature rugged traction, water-resistant materials, and reliable ankle support.',
@@ -61,7 +61,7 @@ const initialState = {
     },
       {
       id: 8,
-      name: 'Puma RS-X',
+      name: 'Shadow Rush',
       price: 9500,
       image: '/assets/images7.jpg',
       description:'Engineered for outdoor adventures, these hiking shoes feature rugged traction, water-resistant materials, and reliable ankle support.',
@@ -69,7 +69,7 @@ const initialState = {
     },
       {
       id: 9,
-      name: 'Puma RS-X',
+      name: 'Nexa Runner',
       price: 9500,
       image: '/assets/images8.jpg',
       description:'Engineered for outdoor adventures, these hiking shoes feature rugged traction, water-resistant materials, and reliable ankle support.',
@@ -77,14 +77,14 @@ const initialState = {
     },
      {
       id: 10,
-      name: 'Puma RS-X',
+      name: 'Titan Glide',
       price: 9500,
       image: '/assets/images9.jpg',
       description:'Engineered for outdoor adventures, these hiking shoes feature rugged traction, water-resistant materials, and reliable ankle support.',
       brand: 'Puma',
     }, {
       id: 11,
-      name: 'Puma RS-X',
+      name: 'Vortex Edge',
       price: 9500,
       image: '/assets/images 10.jpg',
       description:'Engineered for outdoor adventures, these hiking shoes feature rugged traction, water-resistant materials, and reliable ankle support.',

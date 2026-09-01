@@ -13,7 +13,7 @@ export default function ProductCard({ product, showDescription, cartBtn, style }
 
   const isLoggedIn = useSelector((state) => state.auth.isLogginIn);
 
-  function handleAddToCart() {
+    function handleAddToCart() {
     if (!isLoggedIn) {
       alert("Please login first");
       return;
