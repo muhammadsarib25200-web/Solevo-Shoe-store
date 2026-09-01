@@ -3,8 +3,8 @@ import connectDB from "@/lib/mongodb";
 import Order from "@/models/order";
 import { NextResponse } from "next/server";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
 export async function POST(request){
+    const resend = new Resend(process.env.RESEND_API_KEY);
     try{
         await connectDB();
         const body = await request.json();

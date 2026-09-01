@@ -21,6 +21,7 @@
   padding: 40px 60px;
   gap: 20px;
   overflow: hidden;
+  text-decoration: none;
 }
 
 .hero-disc-cont {
@@ -90,8 +91,14 @@
   background-clip: content-box, border-box;
   font-family: "Orbitron", sans-serif;
   cursor: pointer;
+  text-decoration: none !important;
 }
-
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
 .container-stars {
   position: absolute;
   z-index: -1;
